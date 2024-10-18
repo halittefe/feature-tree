@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.rd3t-link {
+  stroke: #D8B4FE;
+  stroke-width: 2;
+}
+
+.rd3t-tree-container {
+  width: 100%;
+  height: 100%;
+}
+
+.rd3t-node {
+  cursor: pointer;
+}
+
+.rd3t-node:hover {
+  filter: brightness(1.1);
+}
+
+.root-node circle {
+  fill: #7C3AED;
+}
+
+.branch-node circle {
+  fill: #9F7AEA;
+}
+
+.leaf-node circle {
+  fill: #C4B5FD;
+}
